@@ -26,7 +26,19 @@ $(function(){
        });   
 
 
-
+    // ボタンのカッコ
     })
-    
+
+
+//↓大外のカッコ
 })
+
+
+
+// modal
+$('.modal-btn').on('click',function(){
+    $('.modal-container').addClass('on');
+    })
+    $('.close-btn-wrap').on('click',function(){
+      $('.modal-container').removeClass('on');
+    })
