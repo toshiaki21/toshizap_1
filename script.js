@@ -1,7 +1,7 @@
 $(function () {
   // console.log('test');
 
-  $('button').on('click', function () {
+  $('top-btn').on('click', function () {
 
     $.ajax({
       url: 'https://yesno.wtf/api', //アクセスするURL
