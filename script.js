@@ -20,23 +20,30 @@ $(function () {
         console.log(result);
 
         if (result == 'yes') {
-          
+          $('.close-btn-wrap').addClass('on');
         } else {
-          
-        }
-
-
-        
-        // 条件分岐
-        if (response == yes) {
-          $('.modal-container').addClass('on');
-        } else {
-          $('.modal-container').addClass('on');
+          $('.close-btn-wrap').addClass('no')
         }
 
         $('.close-btn-wrap').on('click', function () {
           $('.modal-container').removeClass('on');
         })
+
+        $('.close-btn-wrap').on('click', function () {
+          $('.modal-container').removeClass('no');
+        })
+
+        
+        // 条件分岐
+        // if (response == yes) {
+        //   $('.modal-container').addClass('on');
+        // } else {
+        //   $('.modal-container').addClass('on');
+        // }
+
+        // $('.close-btn-wrap').on('click', function () {
+        //   $('.modal-container').removeClass('on');
+        // })
       
 
 
