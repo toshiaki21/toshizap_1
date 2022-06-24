@@ -20,18 +20,15 @@ $(function () {
         console.log(result);
 
         if (result == 'yes') {
-          $('.close-btn-wrap').addClass('on');
+          $('.close-btn-wrap').addClass('yes');
         } else {
           $('.close-btn-wrap').addClass('no')
         }
 
         $('.close-btn-wrap').on('click', function () {
-          $('.modal-container').removeClass('on');
+          $('.modal-container').removeClass('');
         })
 
-        $('.close-btn-wrap').on('click', function () {
-          $('.modal-container').removeClass('no');
-        })
 
         
         // 条件分岐
