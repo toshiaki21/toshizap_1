@@ -1,7 +1,36 @@
-h1 {
+#top {
+  background-color: black;
+}
+
+#top h1 {
   text-align: center;
-  font-size: 70px;
+  font-size: 100px;
   font-weight: 700;
   color: gold;
+}
+
+#top .top-text1 {
+  color: white;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+#top .top-text2 {
+  color: white;
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+}
+
+#top .top-btn {
+  color: white;
+  font-size: 50px;
+  font-weight: 700;
+  padding: 20px 30px;
+  background-color: #f34d4d;
+}
+
+#top .top .gym-btn {
+  text-align: center;
 }
 /*# sourceMappingURL=rika.css.map */

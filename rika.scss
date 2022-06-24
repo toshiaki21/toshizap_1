@@ -1,10 +1,51 @@
 body{
     // background-color: black;
+    // cursor: default;
+    // background: linear-gradient(#e3d128, #fffdf0);
 }
 
-h1{
-    text-align: center;
-    font-size: 70px;
-    font-weight: 700;
-    color: gold;
+#top{
+    background-color: black;
+
+    h1{
+        text-align: center;
+        font-size: 100px;
+        font-weight: 700;
+        color: gold;
+    }
+
+    .top{
+        &-text1{
+            color: white;
+            font-size: 40px;
+            font-weight: 500;
+        }
+    
+        &-text2{
+            color: white;
+            font-size: 50px;
+            font-weight: 700;
+            text-align: center;
+        }
+
+        &-btn{
+            color: white;
+            font-size: 50px;
+            font-weight: 700;
+            // margin: 0 auto;
+            padding: 20px 30px;
+            background-color: rgb(243, 77, 77);
+            // border: 2px solid gold;
+            
+        }
+
+        .gym-btn{
+            text-align: center;
+        }
+    }
+    
+
+    
 }
+
+
