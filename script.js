@@ -1,7 +1,7 @@
 $(function () {
   // console.log('test');
 
-  $('.top-btn').on('click', function () {
+  $('top-btn').on('click', function () {
 
     $.ajax({
       url: 'https://yesno.wtf/api', //アクセスするURL
@@ -21,12 +21,8 @@ $(function () {
 
         if (result == 'yes') {
           $('.close-btn-wrap').addClass('yes');
-        } else if {
+        } else {
           $('.close-btn-wrap').addClass('no')
-        }
-
-        else{
-          
         }
 
         $('.close-btn-wrap').on('click', function () {
