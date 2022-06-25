@@ -1,5 +1,13 @@
 $(function () {
   // console.log('test');
+// modal
+// $('.top-btn').on('click',function(){
+//   $('.modal-container').addClass('on');
+//   })
+//   $('.close-btn-wrap').on('click',function(){
+//     $('.modal-container').removeClass('on');
+//   })
+
 
   $('.top-btn').on('click', function () {
 
@@ -20,16 +28,16 @@ $(function () {
         console.log(result);
 
         if (result == 'yes') {
-          $('.close-btn-wrap').addClass('yes');
+          $('.modal-container').addClass('on');
         } else if(result == 'no'){
-
+          $('.modal-container').removeClass('on');
         } else {
 
         }
 
         // 閉じるボタン
         $('.close-btn-wrap').on('click', function () {
-          $('.modal-container').removeClass('');
+          $('.modal-container').removeClass('on');
         })
 
 
