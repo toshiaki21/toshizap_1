@@ -1,8 +1,4 @@
 /* modal */
-.hakononaka {
-  display: block;
-}
-
 .modal-btn {
   margin-left: 30px;
   padding: 10px;
@@ -12,10 +8,6 @@
   cursor: pointer;
   position: absolute;
   top: 20px;
-}
-
-.parent {
-  position: relative;
 }
 
 .modal-container {
@@ -29,7 +21,7 @@
   top: 0;
   left: 0;
   opacity: 0;
-  transition: all 2s ease;
+  transition: all 3s ease;
 }
 
 .modal-container.on {
@@ -39,8 +31,8 @@
 }
 
 .modal-message {
-  width: 600px;
-  height: 500px;
+  width: 1200px;
+  height: 600px;
   text-align: center;
   background-color: white;
   border-radius: 10px;
@@ -81,6 +73,10 @@
   height: 30px;
   margin-left: auto;
   margin-right: 20px;
+}
+
+#power {
+  width: 600px;
 }
 
 /*  */

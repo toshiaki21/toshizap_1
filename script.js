@@ -29,10 +29,17 @@ $(function () {
 
         if (result == 'yes') {
           $('.modal-container').addClass('on');
-        } else if(result == 'no'){
-          $('.modal-container').removeClass('on');
-        } else {
+          $('modal-container').hide('.no');
+          $('modal-container').hide('.maybe');
 
+        } else if(result == 'no'){
+          $('.modal-container').addClass('on');
+          $('modal-container').hide('.yes');
+          $('modal-container').hide('.maybe');
+        } else {
+          $('.modal-container').addClass('on');
+          $('modal-container').hide('.yes');
+          $('modal-container').hide('.no');
         }
 
         // 閉じるボタン
