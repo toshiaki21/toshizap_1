@@ -28,6 +28,7 @@
   font-weight: 700;
   padding: 20px 30px;
   background-color: #f34d4d;
+  cursor: pointer;
 }
 
 #top .gym-btn {

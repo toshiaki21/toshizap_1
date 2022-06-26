@@ -74,10 +74,6 @@
   transform: rotate(90deg);
 }
 
-.modal-message p {
-  margin-top: 40%;
-}
-
 .close-btn-wrap {
   text-align: right;
   position: relative;
@@ -89,6 +85,11 @@
 
 #power {
   width: 600px;
+}
+
+.modal-container p {
+  font-size: 40px;
+  text-align: center;
 }
 
 /*  */

@@ -78,7 +78,7 @@
 }
 
 .modal-message p {
-  margin-top: 40%;
+  // margin-top: 40%;
 }
 
 .close-btn-wrap {
@@ -92,6 +92,13 @@
 
 #power{
   width:600px;
+}
+
+.modal-container{
+  p{
+    font-size: 40px;
+    text-align: center;
+  }
 }
 
 // img{
