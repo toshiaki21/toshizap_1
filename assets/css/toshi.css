@@ -1,3 +1,15 @@
+.hako_yes {
+  display: none;
+}
+
+.hako_no {
+  display: none;
+}
+
+.hako_maybe {
+  display: none;
+}
+
 /* modal */
 .modal-btn {
   margin-left: 30px;

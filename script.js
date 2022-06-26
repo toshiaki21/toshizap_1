@@ -29,17 +29,14 @@ $(function () {
 
         if (result == 'yes') {
           $('.modal-container').addClass('on');
-          $('modal-container').hide('.no');
-          $('modal-container').hide('.maybe');
-
-        } else if(result == 'no'){
+          $('.hako_yes').show('.yes');
+        }
+         else if(result == 'no'){
           $('.modal-container').addClass('on');
-          $('modal-container').hide('.yes');
-          $('modal-container').hide('.maybe');
+          $('.hako_no').show('.no');
         } else {
           $('.modal-container').addClass('on');
-          $('modal-container').hide('.yes');
-          $('modal-container').hide('.no');
+          $('.hako_maybe').show('.maybe');
         }
 
         // 閉じるボタン
