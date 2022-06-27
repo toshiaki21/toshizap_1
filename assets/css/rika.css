@@ -92,6 +92,7 @@ body {
 .name {
   font-family: 'Sawarabi Gothic', sans-serif;
   background-color: white;
+  padding: 30px;
 }
 
 .name-box1, .name-box2 {
@@ -113,6 +114,11 @@ body {
   padding: 20px;
   background-color: #f7db0d;
   color: #3c3b38;
+}
+
+.name-box1 .name3, .name-box2 .name3 {
+  font-size: 20px;
+  padding: 20px 40px;
 }
 
 .swiper-slide {
