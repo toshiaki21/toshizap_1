@@ -101,8 +101,33 @@
   }
 }
 
-// img{
-//   width: 1000px;
-// }
 
-/*  */
+.movie{
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+
+footer{
+  background-color: black;
+  height: 120px;
+  color: white;
+  text-align: center;
+  margin-top: 40px;
+  align-items: center;
+
+  .footer{
+    display: block;
+    padding-top: 20px;
+  }
+
+  small{
+    margin-top: 40px;
+  }
+
+  img{
+    width: 200px;
+    height: 50px;
+  }
+}
