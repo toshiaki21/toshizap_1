@@ -86,7 +86,7 @@ body {
 
 .swiper {
   width: 1000px;
-  height: 600px;
+  height: 800px;
 }
 
 .name {
@@ -94,18 +94,18 @@ body {
   background-color: white;
 }
 
-.name-box {
+.name-box1, .name-box2 {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-.name-box .name1 {
+.name-box1 .name1, .name-box2 .name1 {
   font-size: 30px;
   font-weight: 700;
 }
 
-.name-box .name2 {
+.name-box1 .name2, .name-box2 .name2 {
   font-size: 30px;
   font-weight: 700;
   border: 4px solid;
@@ -125,7 +125,7 @@ body {
   justify-content: space-around;
 }
 
-#method .m-container .m-box .m-i {
+.m-i {
   color: white;
   background-color: #60a9da;
   border: 1px solid black;
