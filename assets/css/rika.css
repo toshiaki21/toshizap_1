@@ -85,12 +85,8 @@ body {
 }
 
 .swiper {
-  width: 600px;
-  height: 300px;
-}
-
-#slider {
-  margin: 0 100px;
+  width: 130px;
+  height: 100px;
 }
 
 .name {
@@ -112,6 +108,8 @@ body {
   border: 4px solid;
   border-radius: 40px;
   padding: 20px;
+  background-color: #f7db0d;
+  color: #3c3b38;
 }
 
 .swiper-slide {

@@ -109,12 +109,12 @@ body{
 }
 
 .swiper {
-    width: 600px;
-    height: 300px;
+    width: 130px;
+    height: 100px;
 }
 
 #slider{
-    margin: 0 100px;
+    // margin: 0 100px;
 }
 .name{
     font-family: 'Sawarabi Gothic', sans-serif;
@@ -133,6 +133,8 @@ body{
         border: 4px solid ;
         border-radius: 40px;
         padding: 20px;
+        background-color: rgb(247, 219, 13);
+        color: #3c3b38;
     }
 }
 .swiper-slide{
