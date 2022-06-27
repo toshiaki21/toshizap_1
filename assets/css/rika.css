@@ -133,8 +133,15 @@ body {
 
 .m-i {
   color: white;
-  background-color: #60a9da;
+  background-color: #da6060;
   border: 1px solid black;
-  border-radius: 40px;
+  border-radius: 90px;
+  padding: 30px;
+  font-size: 50px;
+}
+
+.m-p {
+  font-size: 30px;
+  font-weight: 800;
 }
 /*# sourceMappingURL=rika.css.map */
