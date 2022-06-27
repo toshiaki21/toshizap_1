@@ -164,21 +164,27 @@ body {
 }
 
 #method {
+    // padding: 30px;
 
     .m-container {
         text-align: center;
         display: flex;
         justify-content: space-around;
-
-
-        // .m-box {}
+        
     }
 
 }
 
 .m-i {
     color: white;
-    background-color: rgb(96, 169, 218);
+    background-color: rgb(218, 96, 96);
     border: 1px solid black;
-    border-radius: 40px;
+    border-radius: 90px;
+    padding: 30px;
+    font-size: 50px;
+}
+
+.m-p{
+    font-size: 30px;
+    font-weight: 800;
 }
