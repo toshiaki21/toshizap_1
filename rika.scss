@@ -164,13 +164,25 @@ body {
 }
 
 #method {
-    // padding: 30px;
-
-    .m-container {
+    margin: 100px 50px;
+  
+    h3{
+        font-size: 80px;
+        font-weight: 600;
+        text-align: center;
+        font-family: 'Libre Baskerville', serif;
+    }
+    .m-container1{
         text-align: center;
         display: flex;
         justify-content: space-around;
+        padding: 40px 100px;
         
+    }
+    .m-container2{
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
     }
 
 }
