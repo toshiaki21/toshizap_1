@@ -1,17 +1,28 @@
 body{
     // background-color: black;
     // cursor: default;
-    // background: linear-gradient(#e3d128, #fffdf0);
+    background: linear-gradient(#b4a307, #fffdf0);
 }
 
 #top{
-    background-color: black;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 0 1px 1px;
+    // background-image: url(./img/IMG_4089.JPG);
+    // width: 600px;
+    // height: 700px;
 
+    // .toshizap{
+    //     display: flex;
+    // }
+    
     h1{
         text-align: center;
-        font-size: 130px;
-        font-weight: 700;
+        font-size: 110px;
+        font-weight: 600;
+        margin: 10px;
         color: rgb(183, 156, 3);
+        // font-family: 'Libre Baskerville', serif;
+        font-family: 'Libre Baskerville', serif;
     }
 
     .top{
@@ -19,14 +30,19 @@ body{
             color: white;
             font-size: 40px;
             font-weight: 500;
+            padding: 60px 0 0 140px;
+            font-family: 'BIZ UDPMincho', serif;
             
         }
     
         &-text2{
             color: white;
-            font-size: 50px;
-            font-weight: 700;
+            font-size: 60px;
+            font-weight: 500;
             text-align: center;
+            margin: 130px auto 20px;
+            // font-family: 'Crimson Text', serif;
+            font-family: 'BIZ UDPMincho', serif;
         }
 
         &-btn{
@@ -38,8 +54,16 @@ body{
             background-color: rgb(243, 77, 77);
             // border: 2px solid gold;
             cursor: pointer;
+            margin: 30px;
 
         }
+
+        // &-img{
+        //     width: 800px;
+        //     height: 400px;
+        //     text-align: center;
+            
+        // }
 
         
     }
