@@ -1,8 +1,18 @@
-/* modal */
-.hakononaka {
-  display: block;
+// modal選択肢
+.hako_yes{
+  display: none;
 }
 
+.hako_no{
+  display: none;
+}
+
+.hako_maybe{
+  display: none;
+}
+
+
+/* modal */
 .modal-btn {
   margin-left: 30px;
   padding: 10px;
@@ -14,9 +24,6 @@
   top: 20px;
 }
 
-.parent {
-  position: relative;
-}
 
 .modal-container {
   width: 100vw;
@@ -29,7 +36,7 @@
   top: 0;
   left: 0;
   opacity: 0;
-  transition: all 2s ease;
+  transition: all 3s ease;
 }
 
 .modal-container.on {
@@ -39,8 +46,8 @@
 }
 
 .modal-message {
-  width: 600px;
-  height: 500px;
+  width: 1200px;
+  height: 600px;
   text-align: center;
   background-color: white;
   border-radius: 10px;
@@ -71,7 +78,7 @@
 }
 
 .modal-message p {
-  margin-top: 40%;
+  // margin-top: 40%;
 }
 
 .close-btn-wrap {
@@ -82,5 +89,20 @@
   margin-left: auto;
   margin-right: 20px;
 }
+
+#power{
+  width:600px;
+}
+
+.modal-container{
+  p{
+    font-size: 40px;
+    text-align: center;
+  }
+}
+
+// img{
+//   width: 1000px;
+// }
 
 /*  */

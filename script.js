@@ -1,7 +1,15 @@
 $(function () {
   // console.log('test');
+// modal
+// $('.top-btn').on('click',function(){
+//   $('.modal-container').addClass('on');
+//   })
+//   $('.close-btn-wrap').on('click',function(){
+//     $('.modal-container').removeClass('on');
+//   })
 
-  $('top-btn').on('click', function () {
+
+  $('.top-btn').on('click', function () {
 
     $.ajax({
       url: 'https://yesno.wtf/api', //アクセスするURL
@@ -20,32 +28,21 @@ $(function () {
         console.log(result);
 
         if (result == 'yes') {
-          $('.close-btn-wrap').addClass('yes');
+          $('.modal-container').addClass('on');
+          $('.hako_yes').show('.yes');
+        }
+         else if(result == 'no'){
+          $('.modal-container').addClass('on');
+          $('.hako_no').show('.no');
         } else {
-          $('.close-btn-wrap').addClass('no')
+          $('.modal-container').addClass('on');
+          $('.hako_maybe').show('.maybe');
         }
 
+        // 閉じるボタン
         $('.close-btn-wrap').on('click', function () {
-          $('.modal-container').removeClass('');
+          $('.modal-container').removeClass('on');
         })
-
-
-        
-        // 条件分岐
-        // if (response == yes) {
-        //   $('.modal-container').addClass('on');
-        // } else {
-        //   $('.modal-container').addClass('on');
-        // }
-
-        // $('.close-btn-wrap').on('click', function () {
-        //   $('.modal-container').removeClass('on');
-        // })
-      
-
-
-
-
 
 
         //通信成功時の処理
@@ -65,13 +62,6 @@ $(function () {
   })
 
 
-  // modal
-  $('.modal-btn').on('click', function () {
-    $('.modal-container').addClass('on');
-  })
-  $('.close-btn-wrap').on('click', function () {
-    $('.modal-container').removeClass('on');
-  })
 
   //↓大外のカッコ
 })
